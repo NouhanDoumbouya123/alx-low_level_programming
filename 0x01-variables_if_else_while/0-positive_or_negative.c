@@ -5,6 +5,7 @@
  * main - prints a random number decide whether that number is positive, negative or zero
  *
  * return : Always 0
+ */
 
 int main(void)
 {
