@@ -3,12 +3,6 @@
 #include <time.h>
 /* more headers goes there */
 /* betty style doc for function main goes there */
-/**
- * Description - prints if positive or negative
- * main - void
- * function - say whether a number is positive, negative or 0
- * return: 0
- * /
 
 int main(void)
 {
