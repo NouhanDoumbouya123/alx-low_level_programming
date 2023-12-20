@@ -8,7 +8,7 @@
  */
 
 
-int print_times_table(int)
+int print_times_table()
 {
 	print_times_table(3);
 	_putchar('\n');
