@@ -1,17 +1,37 @@
 #include <stdio.h>
 
-void print_times_table(int num) {
-    int i;
-    for (i = 1; i <= 10; i++) {
-        printf("%d x %d = %d\n", num, i, num * i);
-    }
+/**
+ * sum_multiples_3_5 - Computes the sum of multiples of 3 or 5 below a given limit
+ * @limit: The upper limit (exclusive) for finding multiples
+ *
+ * Return: The sum of multiples of 3 or 5 below the given limit
+ */
+int sum_multiples_3_5(int limit)
+{
+	int total = 0;
+	int num;
+
+	for (num = 0; num < limit; num++)
+	{
+		if (num % 3 == 0 || num % 5 == 0)
+		{
+			total += num;
+		}
+	}
+	return total;
 }
 
-int main() {
-    int num;
-    for (num = 3; num <= 12; num += 2) {
-        print_times_table(num);
-        printf("\n");
-    }
-    return 0;
+/**
+ * main - Entry point
+ *
+ * Return: Always 0
+ */
+int main(void)
+{
+	int limit = 1024;
+	int result = sum_multiples_3_5(limit);
+
+	printf("%d\n", result);
+
+	return (0);
 }
