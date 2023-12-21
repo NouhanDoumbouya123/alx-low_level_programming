@@ -1,19 +1,17 @@
-#include <stdio.h> // Include necessary header file for printf
+#include <stdio.h>
 
 void print_times_table(int num) {
-    int i; // Declare 'i' outside the loop due to C90 standard
+    int i;
     for (i = 1; i <= 10; i++) {
         printf("%d x %d = %d\n", num, i, num * i);
     }
 }
 
 int main() {
-    print_times_table(3);
-    printf("\n");
-    print_times_table(5);
-    printf("\n");
-    print_times_table(98);
-    printf("\n");
-    print_times_table(12);
+    int num;
+    for (num = 3; num <= 12; num += 2) {
+        print_times_table(num);
+        printf("\n");
+    }
     return 0;
 }
