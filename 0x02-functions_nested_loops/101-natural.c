@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * sum_multiples_3_5 - Computes the sum of multiples of 3 or 5 below a given limit
+ * sum_multiples_3_5 - Computes the sum of multiples
+ * of 3 or 5 below a given limit
  * @limit: The upper limit (exclusive) for finding multiples
  *
  * Return: The sum of multiples of 3 or 5 below the given limit
@@ -18,7 +19,7 @@ int sum_multiples_3_5(int limit)
 			total += num;
 		}
 	}
-	return total;
+	return (total);
 }
 
 /**
