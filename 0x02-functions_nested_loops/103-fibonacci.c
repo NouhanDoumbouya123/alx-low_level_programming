@@ -1,26 +1,20 @@
 #include <stdio.h>
 
-/**
- * main - Calculates the sum of even-valued terms in the Fibonacci sequence
- *        up to a limit of 4,000,000
- *
- * Return: Always 0
- */
 int main(void)
 {
     int i = 0;
-    long j = 1, k = 2, sum = 0; // Initialize sum to 0
+    long j = 1, k = 2, sum = 0;
 
-    while (k <= 4000000) // Adjust the condition to include values <= 4,000,000
+    while (k <= 4000000)
     {
-        if (k % 2 == 0) // Check if 'k' is even
-            sum += k;   // Add 'k' to the sum of even-valued terms
+        if (k % 2 == 0)
+            sum += k;
 
         k += j;
         j = k - j;
         ++i;
     }
 
-    printf("%ld\n", sum); // Print the sum followed by a new line
+    printf("%ld\n", sum);
     return (0);
 }
