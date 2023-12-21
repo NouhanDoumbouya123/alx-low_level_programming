@@ -3,9 +3,9 @@
 /**
  * main - Entry point
  *
- * Description: Calculates the sum of 
+ * Description: Calculates the sum of
  * even-valued terms in the Fibonacci sequence
- *              up to a limit of 4,000,000
+ * up to a limit of 4,000,000
  *
  * Return: Always 0
  */
