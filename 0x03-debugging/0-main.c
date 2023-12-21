@@ -9,7 +9,7 @@ int main(void)
 {
 	int i;
 
-	i = n;
+	i = 0;
 	positive_or_negative(i);
 	return (0);
 }
