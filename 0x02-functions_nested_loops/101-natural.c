@@ -1,9 +1,8 @@
-#include "main.h" // Assuming necessary headers are in main.h
+#include <stdio.h> // Include necessary header file for printf
 
 void print_times_table(int num) {
-    // Your logic to print the times table for the given 'num'
-    // For example:
-    for (int i = 1; i <= 10; i++) {
+    int i; // Declare 'i' outside the loop due to C90 standard
+    for (i = 1; i <= 10; i++) {
         printf("%d x %d = %d\n", num, i, num * i);
     }
 }
