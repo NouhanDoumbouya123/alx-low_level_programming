@@ -3,7 +3,7 @@
 /**
  * malloc_checked - allocates memory using malloc and check if success
  * @b: the parameter
- * return: if fails, it should return exit(98)
+ * Return: if fails, it should return exit(98)
  */
 
 void *malloc_checked(unsigned int b)
