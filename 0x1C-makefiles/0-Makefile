@@ -1,4 +1,4 @@
-# create our first makefile
+# creation of my first makefile
 
 
 all: main.c school.c
